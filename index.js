@@ -7,7 +7,7 @@
         const API_KEY = '__MY_API_KEY__';
         
         // Модель (бесплатная)
-        const MODEL = 'arcee-ai/trinity-large-preview:free';
+        const MODEL = 'google/gemma-3-27b-it:free';
         // ==============================================
 
         // Элементы DOM
