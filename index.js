@@ -7,7 +7,7 @@
         const API_KEY = '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';
         
         // Модель (бесплатная)
-        const MODEL = 'google/gemma-3-27b-it:free';
+        const MODEL = 'arcee-ai/trinity-large-preview:free';
         // ==============================================
 
         // Элементы DOM
