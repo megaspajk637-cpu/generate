@@ -16,7 +16,7 @@ jobs:
       - name: Replace API Key placeholder with real key
         run: |
           echo "🔑 Подставляем ключ из Secrets..."
-          sed -i 's|__MY_API_KEY__|${{ secrets.API_KEY }}|g' script.js
+          sed -i 's|__MY_API_KEY__|${{ secrets.API_KEY }}|g' index.js
           echo "✅ Готово! Ключ заменён."
 
       - name: Deploy to GitHub Pages
